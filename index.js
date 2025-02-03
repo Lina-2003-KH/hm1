@@ -10,9 +10,9 @@ function compute() {
 
    
     if (x >= 10 && y >= 8) {
-        r.innerHTML = y * y * y + y * y * y + 300;
+        r.innerHTML = Math.pow(y, 3) + Math.pow(y, 3)  + 300;
     } else if (x >= 3 && y >= 7) {
-        r.innerHTML = y * y + y * y + x * y;
+        r.innerHTML =Math.pow(y, 2) + Math.pow(y, 2)  + x * y;
     } else {
         r.innerHTML = x + y;
     }
